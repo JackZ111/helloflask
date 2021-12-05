@@ -21,7 +21,7 @@ def index():  # 视图函数
 @app.route('/hi')
 @app.route('/hello')  # 一个视图函数一次性绑定多个URL
 def say_hello():
-    return '<h1>Hello, Flask!</h1>'
+    return '<h1>Hello, Flask!</h1>' # java语言
 
 
 # dynamic route, URL variable default
